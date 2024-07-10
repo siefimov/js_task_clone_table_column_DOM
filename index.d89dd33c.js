@@ -1,0 +1,2 @@
+var e,t,n=document.querySelector("thead tr"),c=document.querySelector("tfoot tr"),o=document.querySelectorAll("tbody tr");function r(e,t,n,c){t.textContent=e.cells[n-1].textContent,e.cells[c-1].insertAdjacentElement("afterend",t)}e=document.createElement("th"),t=document.createElement("th"),r(n,e,2,4),r(c,t,2,4),o.forEach(function(e,t){r(e,document.createElement("td"),2,4)});
+//# sourceMappingURL=index.d89dd33c.js.map
